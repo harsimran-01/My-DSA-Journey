@@ -1,6 +1,5 @@
 import java.util.LinkedList;
 
-//time complexity = O(n) and space complexity = O(n)
 public class recursive_search {
     public static int recursive_search(LinkedList<Integer> list,int key,int index){
         if(list.size()==index){
