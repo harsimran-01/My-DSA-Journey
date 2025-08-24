@@ -155,6 +155,20 @@ public class Constructing_ll {
         return helper(head,key);
     }
 
+    public void reverse(){
+        Node prev = null;
+        Node curr = tail = head;
+        Node next;
+
+        while(curr!=null){
+            next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
+        }
+        head = prev;
+    }
+
     public static void main(String[] args) {
         Constructing_ll list = new Constructing_ll();
         list.addFirst(1);
@@ -179,6 +193,9 @@ public class Constructing_ll {
         System.out.println("Found at index : "+list.iterative_search(3));
         System.out.println("Recursive Search");
         System.out.println("Found at index : "+list.recursiveSearch(3));
+        System.out.println("Reversing a linked List");
+        list.reverse();
+        list.printingLL();
     }
     
 }
