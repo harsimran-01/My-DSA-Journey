@@ -124,6 +124,37 @@ public class Constructing_ll {
         return val;
     }
 
+    public int iterative_search(int key){
+        Node temp = head;
+        int i=0;
+        while(temp != null){
+            if(temp.data == key){
+                return i;
+            }
+            temp = temp.next;
+            i++;
+        }
+        return -1;
+    }
+
+    public int helper(Node head,int key){
+        if(head == null){
+            return -1;
+        }
+        if(head.data == key){
+            return 0;
+
+        }
+        int indx = helper(head.next, key);
+        if(indx == -1){
+            return -1;
+        }
+        return indx+1;
+    }
+    public int recursiveSearch(int key){
+        return helper(head,key);
+    }
+
     public static void main(String[] args) {
         Constructing_ll list = new Constructing_ll();
         list.addFirst(1);
@@ -144,6 +175,10 @@ public class Constructing_ll {
         list.removeLast();
         list.printingLL();
         System.out.println(list.size);
+        System.out.println("Iterative Search");
+        System.out.println("Found at index : "+list.iterative_search(3));
+        System.out.println("Recursive Search");
+        System.out.println("Found at index : "+list.recursiveSearch(3));
     }
     
 }
