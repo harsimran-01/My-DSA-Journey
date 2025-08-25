@@ -1,3 +1,4 @@
+import java.lang.classfile.components.ClassPrinter.ListNode;
 import java.util.Iterator;
 import java.util.LinkedList;
 
@@ -20,6 +21,22 @@ public class reverse_list {
         System.out.println("null");
 
     }
+
+    //Iterative approach
+
+    // public ListNode reverseList(ListNode head) {
+    //     ListNode prev = null;
+    //     ListNode curr = head;
+    //     ListNode next;
+
+    //     while(curr != null){
+    //         next = curr.next;
+    //         curr.next = prev;
+    //         prev = curr;
+    //         curr = next;
+    //     }
+    //     return prev;
+    // }
 
     public static void main(String[] args) {
         LinkedList<Integer> list = new LinkedList<>();
