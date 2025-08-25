@@ -1,0 +1,20 @@
+# Java compiled class files
+*.class
+
+# Package Files
+*.jar
+*.war
+*.ear
+
+# IDE settings
+.vscode/
+.idea/
+*.iml
+
+# Build directories
+/bin/
+/out/
+/target/
+
+# Logs
+*.log
