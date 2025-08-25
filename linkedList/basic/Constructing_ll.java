@@ -169,6 +169,81 @@ public class Constructing_ll {
         head = prev;
     }
 
+    public void deleteNthNode(int n){
+        int sz = 0;
+        Node temp = head;
+        while(temp != null){
+            temp = temp.next;
+            sz++;
+        }
+
+        if(n == sz){
+            head = head.next;
+        }
+
+        int i=1;
+        int itoFind = sz-n;
+        Node prev = head;
+
+        while(i<itoFind){
+            prev = prev.next;
+            i++;
+
+        }
+        prev.next = prev.next.next;
+        return;
+    }
+
+    //finding the middle of the ll  (slow - fast approach)
+
+    public Node middle(Node head){
+        Node slow = head;
+        Node fast = head;
+        while(fast != null && fast.next != null){
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        return slow;
+    }
+
+    public boolean isPalindrome(){
+
+        //base case
+        if(head == null || head.next == null){
+            return true;
+        }
+
+        //step 1 = find the middle node
+        Node midNode = middle(head);
+
+        //step 2 = reverse the second half
+        Node prev = null;
+        Node curr = midNode;
+        Node next;
+
+        while(curr!=null){
+            next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
+        }
+
+        Node right = prev;
+        Node left = head;
+
+        //step 3 = check if the left is equal to the right
+
+        while(right != null){
+            if(left.data != right.data){
+                return false;
+            }
+            left = left.next;
+            right = right.next;
+        }
+        return true;
+
+    }
+
     public static void main(String[] args) {
         Constructing_ll list = new Constructing_ll();
         list.addFirst(1);
@@ -178,6 +253,8 @@ public class Constructing_ll {
         list.addLast(3);
         list.printingLL();
         list.addLast(4);
+        list.addLast(5);
+        list.addLast(6);
         list.printingLL();
         
         list.addMiddle(2, 21);
@@ -196,6 +273,10 @@ public class Constructing_ll {
         System.out.println("Reversing a linked List");
         list.reverse();
         list.printingLL();
+        list.deleteNthNode(4);
+        list.printingLL();
+        System.out.println(list.middle(head).data);
+        System.out.println(list.isPalindrome());
     }
     
 }
