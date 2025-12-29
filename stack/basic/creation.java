@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-
+//using ARRAYLIST
 
 public class creation {
     static class stack{
@@ -14,12 +14,18 @@ public class creation {
         } 
 
         public static int pop(){
+            if(isEmpty() == true){
+                return -1;
+            }
             int val = list.get(list.size()-1);
             list.remove(list.size()-1);
             return val;
         }
 
         public static int peek(){
+            if(isEmpty() == true){
+                return -1;
+            }
             return list.get(list.size()-1);
         }
 

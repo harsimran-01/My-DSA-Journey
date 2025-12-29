@@ -11,7 +11,7 @@ import java.util.Scanner;
 // Explanation: The largest element in array is 99
 
 
-public class largest {
+public class largest1 {
     public static int largestNum(int arr[]){
         int max = Integer.MIN_VALUE;
         for(int i=0;i<arr.length;i++){
@@ -30,5 +30,6 @@ public class largest {
             arr[i] = Integer.parseInt(parts[i]);
         }
         System.out.println(largestNum(arr));
+        sc.close();
     }
 }

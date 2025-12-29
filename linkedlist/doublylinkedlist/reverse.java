@@ -1,4 +1,4 @@
-// package linkedlist.doublylinkedlist;
+package linkedlist.doublylinkedlist;
 
 // package linkedList.doublyLinkedList;
 

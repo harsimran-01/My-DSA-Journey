@@ -1,22 +1,26 @@
+
 public class removingCycle {
-    static class Node{
+
+    static class Node {
+
         int data;
         Node next;
 
-        public Node(int data){
+        public Node(int data) {
             this.data = data;
             this.next = null;
         }
     }
-    public boolean detectCycle(){
+
+    public boolean detectCycle() {
         Node slow = head;
         Node fast = head;
 
-        while(fast != null && fast.next != null){
+        while (fast != null && fast.next != null) {
             slow = slow.next;
             fast = fast.next.next;
 
-            if(slow == fast){
+            if (slow == fast) {
                 return true;
             }
         }
@@ -26,52 +30,49 @@ public class removingCycle {
 
     public static Node head;
 
-    public void removeCycle(){
+    public void removeCycle() {
 
         //detecting cycle
         Node slow = head;
         Node fast = head;
         boolean cycle = false;
 
-        while(fast != null && fast.next != null){
+        while (fast != null && fast.next != null) {
             slow = slow.next;
             fast = fast.next.next;
 
-            if(slow == fast){
+            if (slow == fast) {
                 cycle = true;
                 break;
             }
         }
 
-        if(cycle == false){
+        if (cycle == false) {
             return;
         }
 
         //finding the meeting point
-
         slow = head;
         Node prev = null;
 
-        while(slow != fast){
+        while (slow != fast) {
             prev = fast;
             slow = slow.next;
             fast = fast.next;
         }
 
         //removing the cycle
-
         // prev.next = null;
         if (prev == null) {
-        // special case: cycle starts at head
-        while (fast.next != slow) {
-            fast = fast.next;
+            // special case: cycle starts at head
+            while (fast.next != slow) {
+                fast = fast.next;
+            }
+            fast.next = null;
+        } else {
+            prev.next = null;
         }
-        fast.next = null;
-    } else {
-        prev.next = null;
     }
-    }
-
 
     public static void main(String[] args) {
         removingCycle list = new removingCycle();
@@ -80,13 +81,9 @@ public class removingCycle {
         head.next.next = new Node(3);
         head.next.next.next = head;
 
-
         System.out.println("Cycle detected: " + list.detectCycle());
         list.removeCycle();
         System.out.println("Cycle detected: " + list.detectCycle());
-        
-
-
 
     }
 }
