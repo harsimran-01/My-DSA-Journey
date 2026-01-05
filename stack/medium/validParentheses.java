@@ -24,30 +24,31 @@ public class validParentheses {
 
         }
         if (s.isEmpty()) {
-            return true; 
-        }else {
+            return true;
+        } else {
             return false;
         }
     }
 
-    public static boolean duplicateParentheses(String str){
+    public static boolean duplicateParentheses(String str) {
         Stack<Character> s = new Stack<>();
 
-        for(int i=0;i<str.length();i++){
+        for (int i = 0; i < str.length(); i++) {
             char c = str.charAt(i);
 
             //closing
-
-            if(c == ')'){
+            if (c == ')') {
                 int count = 0;
-                while(s.peek() != '('){
+                while (s.peek() != '(') {
                     s.pop();
                     count++;
                 }
-                if(count<1) return true;else{
+                if (count < 1) {
+                    return true; 
+                }else {
                     s.pop();
                 }
-            }else{
+            } else {
                 s.push(c);
             }
 
