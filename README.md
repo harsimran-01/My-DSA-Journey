@@ -43,35 +43,6 @@ Rather than memorizing solutions, the focus is on **deep understanding**, **edge
 
 ---
 
-## 🗂️ Repository Structure
-
-```text
-My-DSA-Journey/
-│
-├── arrays/
-├── linkedlist/
-├── stack/
-├── queue/
-├── priorityQueue/
-│
-├── binaryTree/
-├── binarySearchTree/
-├── avlTree/
-├── heap/
-│
-├── trie/
-├── hashing/
-│
-├── graphs/
-├── greedyAlgorithms/
-│
-├── recursion/
-├── backtracking/
-├── sorting/
-├── bitwise_manipulation/
-│
-└── string/
-
 <div align="center">
 
 ## 📘 What This Repository Offers
