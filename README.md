@@ -71,3 +71,112 @@ My-DSA-Journey/
 ├── bitwise_manipulation/
 │
 └── string/
+
+📂 Each folder contains:
+
+Concept-wise Java implementations
+
+Logical explanations through code
+
+Edge case handling
+
+Optimized approaches
+
+🧠 Topics Covered
+🔹 Linear Data Structures
+
+Arrays
+
+Linked List
+
+Stack
+
+Queue
+
+Priority Queue
+
+🌳 Tree-Based Structures
+
+Binary Tree
+
+Binary Search Tree (BST)
+
+AVL Tree
+
+Heap
+
+Trie
+
+🔗 Graphs
+
+Graph Representation
+
+Traversals
+
+Core Graph Algorithms
+
+⚙️ Algorithms
+
+Sorting Algorithms
+
+Greedy Algorithms
+
+Recursion
+
+Backtracking
+
+Bit Manipulation
+
+Hashing Techniques
+
+String Algorithms
+
+🎯 Learning Objectives
+
+✔ Build a strong DSA foundation
+✔ Improve logical thinking & efficiency
+✔ Write clean, scalable Java code
+✔ Prepare for coding interviews & placements
+✔ Maintain consistency and discipline
+
+📈 Learning Philosophy
+
+✨ “Don’t chase shortcuts. Chase understanding.”
+
+🔁 Revise concepts regularly
+
+📊 Analyze time & space complexity
+
+🧩 Solve problems from scratch
+
+🧠 Learn patterns, not just answers
+
+This repository is actively maintained and will continue to grow as I explore more advanced concepts.
+
+🤝 Contributions & Suggestions
+
+This is a personal learning repository, but:
+
+💡 Suggestions are welcome
+
+🔧 Optimizations are appreciated
+
+🐞 Bugs or improvements? Open an issue!
+
+⭐ Support
+
+If you find this repository helpful or inspiring:
+
+⭐ Star this repository
+
+🍴 Fork it
+
+📌 Use it as reference for your own DSA journey
+
+👩‍💻 Author
+
+Harsimran Kaur
+🎓 Aspiring Software Engineer
+💻 Java | DSA | Problem Solving
+
+“Consistency beats talent when talent doesn’t work consistently.”
