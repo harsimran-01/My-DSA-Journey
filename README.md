@@ -80,28 +80,20 @@ A clean, structured, and thoughtfully organized collection of **Data Structures 
 
 </div>
 
----
-
 ## 📂 Folder Highlights
 
-Each folder in this repository is designed to strengthen both **conceptual understanding** and **practical implementation**.
+Each folder in this repository is thoughtfully designed to strengthen both **conceptual understanding** and **practical implementation** of Data Structures & Algorithms.
 
-✨ What you’ll find inside:
+✨ **What you’ll find inside:**
 
 - 📌 **Concept-wise Java implementations**
-- 🧠 **Logic-first approach through readable code**
-- ⚠️ **Edge case handling**
+- 🧠 **Logic-first approach with clean, readable code**
+- ⚠️ **Careful edge case handling**
 - 🚀 **Optimized and efficient solutions**
 
 ---
 
-<div align="center">
-
 ## 🧠 Topics Covered
-
-</div>
-
----
 
 ### 🔹 Linear Data Structures
 - Arrays  
@@ -123,7 +115,7 @@ Each folder in this repository is designed to strengthen both **conceptual under
 
 ### 🔗 Graphs
 - Graph Representation  
-- Graph Traversals  
+- Traversals (BFS, DFS)  
 - Core Graph Algorithms  
 
 ---
@@ -139,73 +131,53 @@ Each folder in this repository is designed to strengthen both **conceptual under
 
 ---
 
-<div align="center">
-
 ## 🎯 Learning Objectives
 
-</div>
-
-✔ Build a **strong DSA foundation**  
-✔ Improve **logical thinking & efficiency**  
-✔ Write **clean, scalable Java code**  
-✔ Prepare for **coding interviews & placements**  
-✔ Maintain **consistency and discipline**
+- ✔ Build a **strong DSA foundation**
+- ✔ Improve **logical thinking and efficiency**
+- ✔ Write **clean, scalable Java code**
+- ✔ Prepare effectively for **coding interviews & placements**
+- ✔ Maintain **consistency and discipline** in learning
 
 ---
 
-<div align="center">
-
 ## 📈 Learning Philosophy
-
-</div>
 
 > ✨ **“Don’t chase shortcuts. Chase understanding.”**
 
-🔁 Revise concepts regularly  
-📊 Analyze **time & space complexity**  
-🧩 Solve problems **from scratch**  
-🧠 Learn **patterns**, not just answers  
+- 🔁 Regular concept revision  
+- 📊 Time & space complexity analysis  
+- 🧩 Solve problems **from scratch**  
+- 🧠 Focus on learning **patterns**, not just answers  
 
 📌 This repository is **actively maintained** and will continue to grow as I explore more advanced concepts.
 
 ---
 
-<div align="center">
-
 ## 🤝 Contributions & Suggestions
 
-</div>
+This is primarily a **personal learning repository**, but constructive collaboration is always welcome:
 
-This is a **personal learning repository**, but collaboration is always welcome:
-
-- 💡 Suggestions are appreciated  
-- 🔧 Optimizations are encouraged  
-- 🐞 Found a bug or improvement? Open an issue  
+- 💡 Suggestions for improvement  
+- 🔧 Code optimizations  
+- 🐞 Bug reports or enhancements — feel free to open an issue  
 
 ---
 
-<div align="center">
-
 ## ⭐ Support This Journey
-
-</div>
 
 If you find this repository helpful or inspiring:
 
-- ⭐ Star this repository  
+- ⭐ Star the repository  
 - 🍴 Fork it  
 - 📌 Use it as a reference for your own DSA journey  
 
 ---
 
-<div align="center">
-
 ## 👩‍💻 Author
 
 **Harsimran Kaur**  
 🎓 Aspiring Software Engineer  
-💻 Java | DSA | Problem Solving  
+💻 Java | Data Structures | Problem Solving  
 
 > *“Consistency beats talent when talent doesn’t work consistently.”*
-
-</div>
