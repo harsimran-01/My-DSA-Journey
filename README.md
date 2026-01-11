@@ -72,111 +72,140 @@ My-DSA-Journey/
 │
 └── string/
 
-📂 Each folder contains:
+<div align="center">
 
-Concept-wise Java implementations
+## 📘 What This Repository Offers
 
-Logical explanations through code
+A clean, structured, and thoughtfully organized collection of **Data Structures & Algorithms** implemented in **Java**, focused on clarity, correctness, and efficiency.
 
-Edge case handling
+</div>
 
-Optimized approaches
+---
 
-🧠 Topics Covered
-🔹 Linear Data Structures
+## 📂 Folder Highlights
 
-Arrays
+Each folder in this repository is designed to strengthen both **conceptual understanding** and **practical implementation**.
 
-Linked List
+✨ What you’ll find inside:
 
-Stack
+- 📌 **Concept-wise Java implementations**
+- 🧠 **Logic-first approach through readable code**
+- ⚠️ **Edge case handling**
+- 🚀 **Optimized and efficient solutions**
 
-Queue
+---
 
-Priority Queue
+<div align="center">
 
-🌳 Tree-Based Structures
+## 🧠 Topics Covered
 
-Binary Tree
+</div>
 
-Binary Search Tree (BST)
+---
 
-AVL Tree
+### 🔹 Linear Data Structures
+- Arrays  
+- Linked List  
+- Stack  
+- Queue  
+- Priority Queue  
 
-Heap
+---
 
-Trie
+### 🌳 Tree-Based Structures
+- Binary Tree  
+- Binary Search Tree (BST)  
+- AVL Tree  
+- Heap  
+- Trie  
 
-🔗 Graphs
+---
 
-Graph Representation
+### 🔗 Graphs
+- Graph Representation  
+- Graph Traversals  
+- Core Graph Algorithms  
 
-Traversals
+---
 
-Core Graph Algorithms
+### ⚙️ Algorithms
+- Sorting Algorithms  
+- Greedy Algorithms  
+- Recursion  
+- Backtracking  
+- Bit Manipulation  
+- Hashing Techniques  
+- String Algorithms  
 
-⚙️ Algorithms
+---
 
-Sorting Algorithms
+<div align="center">
 
-Greedy Algorithms
+## 🎯 Learning Objectives
 
-Recursion
+</div>
 
-Backtracking
+✔ Build a **strong DSA foundation**  
+✔ Improve **logical thinking & efficiency**  
+✔ Write **clean, scalable Java code**  
+✔ Prepare for **coding interviews & placements**  
+✔ Maintain **consistency and discipline**
 
-Bit Manipulation
+---
 
-Hashing Techniques
+<div align="center">
 
-String Algorithms
+## 📈 Learning Philosophy
 
-🎯 Learning Objectives
+</div>
 
-✔ Build a strong DSA foundation
-✔ Improve logical thinking & efficiency
-✔ Write clean, scalable Java code
-✔ Prepare for coding interviews & placements
-✔ Maintain consistency and discipline
+> ✨ **“Don’t chase shortcuts. Chase understanding.”**
 
-📈 Learning Philosophy
+🔁 Revise concepts regularly  
+📊 Analyze **time & space complexity**  
+🧩 Solve problems **from scratch**  
+🧠 Learn **patterns**, not just answers  
 
-✨ “Don’t chase shortcuts. Chase understanding.”
+📌 This repository is **actively maintained** and will continue to grow as I explore more advanced concepts.
 
-🔁 Revise concepts regularly
+---
 
-📊 Analyze time & space complexity
+<div align="center">
 
-🧩 Solve problems from scratch
+## 🤝 Contributions & Suggestions
 
-🧠 Learn patterns, not just answers
+</div>
 
-This repository is actively maintained and will continue to grow as I explore more advanced concepts.
+This is a **personal learning repository**, but collaboration is always welcome:
 
-🤝 Contributions & Suggestions
+- 💡 Suggestions are appreciated  
+- 🔧 Optimizations are encouraged  
+- 🐞 Found a bug or improvement? Open an issue  
 
-This is a personal learning repository, but:
+---
 
-💡 Suggestions are welcome
+<div align="center">
 
-🔧 Optimizations are appreciated
+## ⭐ Support This Journey
 
-🐞 Bugs or improvements? Open an issue!
-
-⭐ Support
+</div>
 
 If you find this repository helpful or inspiring:
 
-⭐ Star this repository
+- ⭐ Star this repository  
+- 🍴 Fork it  
+- 📌 Use it as a reference for your own DSA journey  
 
-🍴 Fork it
+---
 
-📌 Use it as reference for your own DSA journey
+<div align="center">
 
-👩‍💻 Author
+## 👩‍💻 Author
 
-Harsimran Kaur
-🎓 Aspiring Software Engineer
-💻 Java | DSA | Problem Solving
+**Harsimran Kaur**  
+🎓 Aspiring Software Engineer  
+💻 Java | DSA | Problem Solving  
 
-“Consistency beats talent when talent doesn’t work consistently.”
+> *“Consistency beats talent when talent doesn’t work consistently.”*
+
+</div>
