@@ -1,67 +1,73 @@
-📘 My-DSA-Journey
+<div align="center">
 
-This repository contains my journey of learning and practicing Data Structures and Algorithms (DSA).
-It includes categorized problems and solutions implemented in Java.
+# 🌟 My DSA Journey 🌟
+### Mastering Data Structures & Algorithms with Java
 
-📂 Folder Structure
+🚀 A well-structured repository documenting my consistent journey of learning, implementing, and mastering **Data Structures & Algorithms** using **Java**.
 
-arrays/ → Problems and solutions based on arrays
+⭐ Built with discipline | 💻 Written with clarity | 📈 Focused on growth
 
-backtracking/ → Backtracking-based problems
+---
 
-bitwise_manipulation/ → Bitwise operators and problems
+![Java](https://img.shields.io/badge/Language-Java-orange?style=for-the-badge)
+![DSA](https://img.shields.io/badge/Focus-Data%20Structures%20%26%20Algorithms-blue?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Active%20Learning-success?style=for-the-badge)
 
-recursion/ → Recursive solutions for different problems
+</div>
 
-sorting/ → Sorting algorithms and problems
+---
 
-🚀 Technologies Used
+## 📌 About This Repository
 
-Language: Java ☕
+**My DSA Journey** is a comprehensive collection of **Java-based implementations** covering core to advanced **Data Structures and Algorithms**.
 
-Version Control: Git & GitHub
+This repository reflects:
+- 📘 Strong fundamentals
+- 🧠 Logical problem-solving
+- ⚙️ Clean & optimized Java code
+- 🔁 Continuous learning and revision
 
-🎯 Goal
+Rather than memorizing solutions, the focus is on **deep understanding**, **edge cases**, and **time-space optimization**.
 
-The main purpose of this repository is to:
+---
 
-Strengthen problem-solving skills
+## 🛠️ Tech Stack
 
-Build a strong foundation in DSA concepts
+- **Programming Language:** Java  
+- **Paradigm:** Object-Oriented Programming (OOP)  
+- **Core Focus:**  
+  - Data Structures  
+  - Algorithms  
+  - Interview Preparation  
+  - Problem Solving  
 
-Prepare for coding interviews & competitive programming
+---
 
-🛠 How to Run
+## 🗂️ Repository Structure
 
-Clone the repository
-
-git clone https://github.com/harsimran-01/My-DSA-Journey.git
-cd My-DSA-Journey
-
-
-Open the project in VS Code or any Java IDE
-
-Compile and run a file:
-
-javac filename.java
-java filename
-
-✅ To-Do (Upcoming Additions)
-
- Add more graph problems
-
- Add dynamic programming folder
-
- Write detailed explanations for some problems
-
-📌 Contribution
-
-This is my personal learning repo, but if you’d like to suggest improvements or contribute, feel free to create a pull request.
-
-📧 Contact
-
-👤 Harsimran
-
-GitHub: @harsimran-01
-
-✨ Learning one step at a time...
+```text
+My-DSA-Journey/
+│
+├── arrays/
+├── linkedlist/
+├── stack/
+├── queue/
+├── priorityQueue/
+│
+├── binaryTree/
+├── binarySearchTree/
+├── avlTree/
+├── heap/
+│
+├── trie/
+├── hashing/
+│
+├── graphs/
+├── greedyAlgorithms/
+│
+├── recursion/
+├── backtracking/
+├── sorting/
+├── bitwise_manipulation/
+│
+└── string/
