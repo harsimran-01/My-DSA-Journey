@@ -1,7 +1,7 @@
 
 import java.util.*;
 
-public class cycleDFS {
+public class cycleDFS_UN {
 
     static class Edge {
 
