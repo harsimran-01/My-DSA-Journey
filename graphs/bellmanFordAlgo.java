@@ -1,7 +1,7 @@
 
 import java.util.ArrayList;
 
-public class bellmanFordAlgo { //time complexity -> O(V+E)
+public class bellmanFordAlgo { //time complexity -> O(V*E)
 
     static class Edge {
 
