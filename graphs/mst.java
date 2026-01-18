@@ -51,6 +51,25 @@ public class mst {
         }
 
     }
+    static class Pair2 implements Comparable<Pair2>{
+        int v;
+        int par;
+        int cost;
+
+        public Pair2(int v,int par,int cost){
+            this.v = v;
+            this.par = par;
+            this.cost = cost;
+        }
+
+        @Override
+        public int compareTo(Pair2 p2){
+            return this.cost - p2.cost;
+        }
+
+    }
+
+    //calculate the minimum cost of mst 
     public static void prims(ArrayList<Edge> graph[]){
         boolean isVisit[] = new boolean[graph.length];
         PriorityQueue<Pair> pq = new PriorityQueue<>();
@@ -75,6 +94,35 @@ public class mst {
         System.out.println("Final cost = "+finalCost);
 
     }
+    //returning the edges of the mst 
+    public static void prims2(ArrayList<Edge> graph[]){
+        boolean isVisit[] = new boolean[graph.length];
+        PriorityQueue<Pair2> pq = new PriorityQueue<>();
+
+        pq.add(new Pair2(0, -1,0));
+        ArrayList<Edge> list = new ArrayList<>();
+
+        while(!pq.isEmpty()){
+            Pair2 curr = pq.remove();
+            if(!isVisit[curr.v]){
+                isVisit[curr.v] = true;
+                if(curr.par != -1){
+                    list.add(new Edge(curr.par, curr.v, curr.cost));
+                }
+
+                //neighbours
+                for(int i=0;i<graph[curr.v].size();i++){
+                    Edge e = graph[curr.v].get(i);
+                    pq.add(new Pair2(e.dest,curr.v, e.wt));
+                }
+
+            }
+        }
+        for(int i=0;i<list.size();i++){
+            System.out.println(list.get(i).src + " - " + list.get(i).dest + " : " + list.get(i).wt);
+        }
+
+    }
 
     public static void main(String[] args) {
         int V = 4;
@@ -82,5 +130,6 @@ public class mst {
         createGraph(graph);
 
         prims(graph);
+        prims2(graph);
     }
 }
