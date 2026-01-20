@@ -37,6 +37,7 @@ public class disjointSETUnion {
         union(3, 6);
         union(1, 4);
         System.out.println(find(3));
+        System.out.println(find(4));
         union(1, 5);
     }
 }
