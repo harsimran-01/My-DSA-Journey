@@ -1,4 +1,5 @@
-public class floodFillAlgo {
+public class floodFillAlgo { 
+    //time complexity = o(m*n)
     public static void helper(int img[][],int src,int dest,int col,boolean isVisit[][],int org){
 
         if(src < 0 || dest < 0 || src >= img.length || dest >= img[0].length || isVisit[src][dest] || img[src][dest] != org){
