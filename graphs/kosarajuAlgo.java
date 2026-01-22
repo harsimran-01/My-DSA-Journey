@@ -77,6 +77,7 @@ public class kosarajuAlgo {
         while (!s.isEmpty()) {
             int curr = s.pop();
             if (!isVisit[curr]) {
+                //printing all the strongly connected components
                 System.out.print("SCC -> ");
                 dfs(transpose, curr, isVisit);
                 System.out.println();
