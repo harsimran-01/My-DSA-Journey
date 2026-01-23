@@ -1,3 +1,4 @@
+package algorithms;
 public class floodFillAlgo { 
     //time complexity = o(m*n)
     public static void helper(int img[][],int src,int dest,int col,boolean isVisit[][],int org){

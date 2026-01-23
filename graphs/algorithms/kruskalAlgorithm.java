@@ -1,3 +1,4 @@
+package algorithms;
 import java.util.*;
 public class kruskalAlgorithm {
     static class Edge implements Comparable<Edge>{

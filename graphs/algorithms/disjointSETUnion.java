@@ -1,3 +1,4 @@
+package algorithms;
 public class disjointSETUnion {
     static int n = 7;
     static int par[] = new int[n];
