@@ -8,6 +8,7 @@ public class tabulation {
             }
             System.out.println();
         }
+        System.out.println();
     }
     public static int longestSubstring(String s1,String s2,int n,int m,int dp[][]){
         //step 2 -> initialization
