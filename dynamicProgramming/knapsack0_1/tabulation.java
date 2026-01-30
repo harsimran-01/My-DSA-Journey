@@ -46,6 +46,7 @@ public class tabulation {
         int val[] = {15, 14, 10, 45, 30};
         int wt[] = {2, 5, 1, 3, 4};
         int W = 7;
+        //creation of 2d array
         int dp[][] = new int[val.length + 1][W + 1];
         for (int i = 0; i < dp.length; i++) {
             for (int j = 0; j < dp[0].length; j++) {
