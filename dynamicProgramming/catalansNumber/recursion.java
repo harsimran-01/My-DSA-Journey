@@ -6,7 +6,7 @@ public class recursion {
             return 1;
         }
         int ans = 0;
-        for(int i=0;i<=n-1;i++){
+        for(int i=0;i<n;i++){
             ans += catalan_Number(i) * catalan_Number(n-i-1);
         }
         return ans;
