@@ -36,8 +36,10 @@ public class stringConversion {
 
     }
     public static void main(String[] args) {
-        String str1 = "pear";
-        String str2 = "sea";
+        // String str1 = "pear";
+        String str1 = "kitten";
+        // String str2 = "sea";
+        String str2 = "sitting";
 
         System.out.println(string_Conversion(str1, str2));
     }
