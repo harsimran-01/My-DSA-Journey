@@ -17,7 +17,7 @@ public class updateST {
         return Tree[stindx];
     }
     public static void updateUtil(int i,int si,int sj,int indx,int diff){
-        if(indx>=sj || indx<=si){
+        if(indx>sj || indx<si){
             return;
         }
         Tree[i] +=diff;
