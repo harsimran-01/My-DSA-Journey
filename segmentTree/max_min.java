@@ -38,8 +38,12 @@ public class max_min {
         if(indx>sj || indx<si){
             return;
         }
-        tree[i] = Math.max(tree[i], newVal);
+        
+        if(si==sj){
+            tree[i] = newVal;
+        }
         if(si!=sj){
+            tree[i] = Math.max(tree[i], newVal);
             int mid = (si+sj)/2;
             updateUtil(2*i+1, si, mid, indx, newVal);
             updateUtil(2*i+2, mid+1, sj, indx, newVal);
