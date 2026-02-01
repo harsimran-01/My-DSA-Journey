@@ -21,5 +21,11 @@ public class buildTree {
         int n = arr.length;
         init(n);
         System.out.println(buildST(arr, 0, 0, n-1));
+
+        //printing tree
+        for(int i=0;i<Tree.length;i++){
+            System.out.print(Tree[i] + " ");
+        }
+        System.out.println();
     }
 }
