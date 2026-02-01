@@ -33,6 +33,23 @@ public class max_min {
         int n = arr.length;
         return getMaxUtil(0, 0, n-1, qi, qj);
     }
+    public static void updateUtil(int i,int si,int sj,int indx,int newVal){
+        //no overlapp
+        if(indx>sj || indx<si){
+            return;
+        }
+        tree[i] = Math.max(tree[i], newVal);
+        if(si!=sj){
+            int mid = (si+sj)/2;
+            updateUtil(2*i+1, si, mid, indx, newVal);
+            updateUtil(2*i+2, mid+1, sj, indx, newVal);
+        }
+    }
+    public static void update(int arr[],int indx,int newVal){
+        int n = arr.length;
+        arr[indx] = newVal;
+        updateUtil(0, 0, n-1, indx, newVal);
+    }
     public static void main(String[] args) {
         int arr[] = {6,8,-1,2,17,1,3,2,4};
         init(arr.length);
@@ -43,6 +60,10 @@ public class max_min {
         System.out.println();
 
         int max = getMax(arr,2,5);
+        System.out.println(max);
+
+        update(arr, 2, 20);
+        max = getMax(arr, 2, 5);
         System.out.println(max);
     }
 }
